@@ -1,1 +1,1 @@
-README.md shell permissions
+My first shell project
