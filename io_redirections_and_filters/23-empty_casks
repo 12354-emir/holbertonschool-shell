@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in $(find . -empty -print) do echo "${f##*/}" done
+find . -empty -exec sh -c 'for f; do echo "${f##*/}"; done' _ {} +
